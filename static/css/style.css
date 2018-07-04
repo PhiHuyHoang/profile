@@ -21,13 +21,14 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('https://c2.staticflickr.com/6/5208/5308016251_3eaa8dc84d_b.jpg');
-    min-height: 100%;
+    /*background-image: url('https://c2.staticflickr.com/6/5208/5308016251_3eaa8dc84d_b.jpg');*/
+    background-image: url('https://images.pexels.com/photos/1133966/pexels-photo-1133966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("https://www.w3schools.com/w3css/img_parallax2.jpg");
+    background-image: url("http://unsplash.com/photos/TV2gg2kZD1o/download");
     min-height: 400px;
 }
 
@@ -84,6 +85,13 @@ body, html {
     *zoom: 1;
 }
 
+.web-application{
+	overflow:hidden;
+}
+iframe
+{
+	overflow: auto;
+}
 /* Social Media Icons */
 .w3-half > a {
   text-decoration: none;
